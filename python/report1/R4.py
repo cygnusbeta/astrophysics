@@ -82,6 +82,7 @@ def main():
 
         print('gradient', l, gradient)
         print('intercept', l, intercept)
+        print('r_value', l, r_value)
 
     plt.xlabel('Radius (km)')
     plt.ylabel('Mass (kg)')
